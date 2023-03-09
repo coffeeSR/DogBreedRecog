@@ -48,10 +48,6 @@ body {
   color: white;
 }
 
-h1 {
-  text-align: center;
-}
-
 span {
   color: var(--main-color);
   font-weight: 800;
@@ -63,6 +59,7 @@ h1 {
   margin: 4vh 2vw;
   font-size: var(--h1-font-size);
   color: #75d9c7;
+  text-align: center;
 }
 
 p {
@@ -138,7 +135,11 @@ button {
 ul {
   margin: 10px 0;
   font-size: var(--normal-font-size);
-  list-style-type: none;
+}
+
+li {
+  font-family: Bahnschrift Light;
+  list-style:none;
 }
 
 input {
