@@ -11,3 +11,4 @@ button.addEventListener("click", function (event) {
     message.innerHTML = "Processing Image....";
   }
 });
+
